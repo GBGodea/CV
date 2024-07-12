@@ -1,0 +1,294 @@
+@font-face {
+    font-family: "Railway_light";
+    src: url("./fonts/Raleway-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Railway_regular";
+    src: url("./fonts/Raleway-Regular.ttf") format("truetype");
+    src: url("./fonts/Raleway-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Railway_bold";
+    src: url("./fonts/Raleway-Bold.ttf") format("truetype");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --h1_size: 22px;
+    --bold_fonts: "Railway_bold", Arial, Helvetica;
+    --regular_fonts: "Railway_regular", Arial, Helvetica;
+    --light_fonts: "Railway_light", Arial, Helvetica;
+}
+
+html {
+    width: 100%;
+}
+
+h1 {
+    font-size: var(--h1_size);
+    font-family: var(--bold_fonts);
+}
+
+p {
+    font-family: var(--light_fonts);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    margin: 0 10%;
+    background-color: black;
+    height: inherit;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.about h1 {
+    font-size: 32px;
+}
+
+.lines_wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.blue_line {
+    background-color: #80C6E4;
+    padding-bottom: 50px;
+    width: 30%;
+}
+
+.profile_photo {
+    width: 300px;
+    border-radius: 28px;
+    box-shadow: 0 4px 4px 3px rgba(0, 0, 0, 0.25);
+    display: block;
+    margin: 30px auto;
+}
+
+.white_line {
+    background-color: #EDEDED;
+    padding-bottom: 50px;
+    width: 70%;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.align_items {
+    align-items: normal;
+}
+
+.flex h1 {
+    margin: 0;
+}
+
+.mini_white_block {
+    width: 130px;
+    height: 12px;
+    background-color: white;
+}
+
+.pin_and_age {
+    display: flex;
+    flex-direction: column;
+    right: 50px;
+    gap: 20px;
+}
+
+.pin_and_age img {
+    height: 25px;
+}
+
+.inner_pin_and_age {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    right: 25px;
+}
+
+.big_white_block {
+    width: 90%;
+    background-color: white;
+    height: 80px;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+}
+
+.big_white_block img {
+    margin-left: 25px;
+    margin-right: 40px;
+    width: 50px;
+}
+
+.contacts_inner {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 2px black solid;
+    padding: 0 35px 10px;
+    font-size: 16px;
+}
+
+/* .work_time {
+    margin-right: 50px;
+} */
+
+.circles_and_level {
+    display: flex;
+    flex-direction: column;
+}
+
+.circles {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.circle {
+    background-color: white; 
+    border-radius: 100%; 
+    width: 14px; 
+    height: 14px;
+}
+
+.english_level {
+    font-size: 14px !important;
+    font-family: var(--light_fonts) !important;
+}
+
+.english_level br {
+    display: none;
+}
+
+.circle:nth-child(-n + 3) {
+    background-color: black;
+}
+
+.languages {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 20px;
+    align-items: baseline;
+}
+
+.languages p {
+    font-size: 24px;
+    font-family: var(--bold_fonts);
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+}
+
+.languages_skills {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.languages_skills br {
+    display: none;
+}
+
+.languages_skills p {
+    font-family: var(--regular_fonts);
+}
+
+.circle_skill {
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 100%;
+    margin-right: 17px;
+}
+
+.skill_lines {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 25px;
+}
+
+.skill_lines_and_word {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.line {
+    width: 70px;
+    background-color: white;
+    height: 5px;
+    border-radius: 20px;
+}
+
+.line:nth-child(-n + 2) {
+    background-color: black;
+}
+
+.line_one {
+    width: 70px;
+    background-color: white;
+    height: 5px;
+    border-radius: 20px;
+}
+
+.line_one:nth-child(1) {
+    background-color: black;
+}
+
+.add_margin {
+    margin-top: 10px;
+}
+
+.margin_up {
+    margin-top: 30px;
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px;
+}
+
+.university {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.university p {
+    font-size: 32px;
+}
+
+.margin_auto {
+    margin: 30px auto 0 auto;
+}
+
+.about br {
+    display: none;
+}

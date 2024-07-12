@@ -1,0 +1,276 @@
+@media (max-width: 1600px) {
+    body {
+        margin: 0;
+    }
+    
+    .about br {
+        display: block;
+    }
+}
+
+@media (max-width: 1250px) {
+    h1 {
+        font-size: 16px;
+    }
+
+    .work_time {
+        margin: 0 0 0 15px;
+    }
+
+    .line {
+        width: 60px;
+    }
+
+    .line_one {
+        width: 60px;
+    }
+
+    .languages p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1050px) {
+    h1 {
+        font-size: 12px;
+    }
+
+    .about h1 {
+        font-size: 22px;
+    }
+
+    .profile_photo {
+        width: 250px;
+    }
+
+    .line {
+        width: 50px;
+    }
+
+    .line_one {
+        width: 50px;
+    }
+
+    .university p {
+        font-size: 28px;
+    }
+
+    .languages {
+        margin-right: 15px;
+    }
+
+    .languages p {
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 900px) {
+    .profile_photo {
+        width: 200px;
+    }
+
+    .line {
+        width: 40px;
+    }
+
+    .line_one {
+        width: 40px;
+    }
+
+    .university p {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 750px) {
+    .profile_photo {
+        width: 150px;
+    }
+
+    .languages {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .languages p {
+        margin: 0;
+    }
+
+    .languages_skills br {
+        display: block;
+    }
+
+    .inner_pin_and_age {
+        margin-left: 35px;
+    }
+
+    .contacts_inner {
+        padding: 0 0 10px;
+    }
+
+    .circles {
+        justify-content: center;
+        margin-bottom: 5px;
+    }
+
+    .line {
+        width: 30px;
+    }
+
+    .line_one {
+        width: 30px;
+    }
+
+    .university p {
+        font-size: 20px;
+    }
+
+    .big_white_block img {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 650px) {
+    .contacts_inner {
+        gap: 5px;
+    }
+
+    .contacts_inner img {
+        width: 18px;
+    }
+
+    .contacts_inner h1 {
+        font-size: 10px;
+    }
+
+    .big_white_block img {
+        width: 35px;
+        margin-right: 10px;
+    }
+
+    .line {
+        width: 20px;
+    }
+
+    .line_one {
+        width: 20px;
+    }
+}
+
+@media (max-width: 550px) {
+    .big_white_block img {
+        width: 25px;
+        margin-right: 10px;
+        margin-left: 15px;
+    }
+
+    .languages_skills p {
+        font-size: 14px;
+    }
+
+    .skill_lines {
+        margin: 0;
+    }
+
+    .english_level br {
+        display: block;
+    }
+
+    .profile_photo {
+        width: 120px;
+    }
+
+    .about h1 {
+        font-size: 18px;
+    }
+
+    .education p {
+        font-size: 10px;
+    }
+
+    .contacts_inner img {
+        width: 12px;
+    }
+
+    .contacts_inner h1 {
+        font-size: 8px;
+    }
+
+    .inner_pin_and_age {
+        gap: 10px;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .profile_photo {
+        width: 100px;
+    }
+
+    .big_white_block img {
+        margin-left: 5px;
+    }
+
+    .line {
+        width: 10px;
+    }
+
+    .line_one {
+        width: 10px;
+    }
+
+    .circle_skill {
+        display: none;
+    }
+
+    .display_none {
+        display: none;
+    }
+
+    .add_margin p {
+        font-size: 12px;
+    }
+
+    .about h1 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 380px) {
+    .profile_photo {
+        width: 80px;
+    }
+
+    .about h1 {
+        font-size: 12px;
+    }
+
+    .inner_pin_and_age img {
+        width: 12px;
+        height: 12px;
+    }
+
+    .contacts_inner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .university {
+        gap: 10px;
+    }
+
+    .languages p {
+        font-size: 12px;
+    }
+
+    .circle {
+        width: 10px;
+        height: 10px;
+    }
+
+    .english_level {
+        font-size: 12px;
+    }
+}
+

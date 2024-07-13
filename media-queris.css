@@ -235,6 +235,11 @@
     .about h1 {
         font-size: 16px;
     }
+
+    .contacts_inner {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 380px) {
@@ -249,11 +254,6 @@
     .inner_pin_and_age img {
         width: 12px;
         height: 12px;
-    }
-
-    .contacts_inner {
-        display: flex;
-        flex-direction: column;
     }
 
     .university {
